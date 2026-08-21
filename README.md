@@ -42,12 +42,12 @@ Liberación Automática: Al concluir la duración del proceso, la RAM ocupada se
 ###### Instrucciones de Ejecución
 Clonar o ingresar a la carpeta del proyecto:
 
-Bash
-cd /mnt/c/Users/ynose/simulador-procesos-ram
+Bash (wsl)
+Usuario@suario:~/simulador-procesos-ram$ 
 Ejecutar el simulador:
 
 Bash
-python3 main.py
+python3 interfaz.py
 Uso del menú interactivo:
 
 Opción 1: Crear un proceso especificando nombre, RAM requerida (≤1024 MB) y duración en segundos.
